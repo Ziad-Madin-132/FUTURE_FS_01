@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delizia - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Delizia</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="reservation.html">Reservation</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<section class="contact fade-in">
+  <h2>Contact Us</h2>
+  <div class="contact-container">
+    <div class="contact-card fade-in">
+      <h3>Get in Touch</h3>
+      <p>Email: <a href="mailto:info@delizia.com">info@delizia.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+      <p>Address: 123 Main Street, City</p>
+    </div>
+    <div class="contact-card fade-in">
+      <h3>Send a Message</h3>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <p id="contactConfirmation" style="color:green; display:none;">Message sent!</p>
+      </form>
+    </div>
+  </div>
+  <div class="map fade-in">
+    <iframe src="https://maps.google.com/maps?q=123%20Main%20Street&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;"></iframe>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
