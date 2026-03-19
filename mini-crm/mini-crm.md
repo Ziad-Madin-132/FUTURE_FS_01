@@ -152,7 +152,7 @@ node server.js
 **Ziad Madin** – Developer of Mini CRM Dashboard.  
 
 You can reach me at:  
-- Email: your-email@example.com  
+- Email: ziadmadin842@gmail.com  
 - GitHub: [Ziad_Madin](https://github.com/Ziad-Madin-132)  
 - LinkedIn: [Ziad_Madin](https://www.linkedin.com/in/ziad-madin-a70305392/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bb8wqd%2BpeQnGEMewfrTp8rQ%3D%3D)
 
